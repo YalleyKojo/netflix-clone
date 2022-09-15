@@ -1,12 +1,14 @@
 import requests from "./requests";
 import Row from "./Row";
-
+import Banner from "./Banner";
+import "./App.css"
 //  api key:
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <Banner/>
       <Row 
-      title="Netflix Originals"
+      title="NETFLIX ORIGINALS"
       fetchapi={requests.fetchNetflixOriginals}
       isLargeRow/>
       <Row

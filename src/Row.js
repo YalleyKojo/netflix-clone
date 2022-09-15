@@ -13,7 +13,7 @@ function Row({title,fetchapi,isLargeRow}) {
 
         const mdata= await geturl.get(fetchapi);
         setMovies(mdata.data.results)
-        console.table(movies);
+       // console.table(movies);
         
         }
         catch(err){
