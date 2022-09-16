@@ -2,10 +2,12 @@ import requests from "./requests";
 import Row from "./Row";
 import Banner from "./Banner";
 import "./App.css"
+import Navbar from "./Navbar";
 //  api key:
 function App() {
   return (
     <div className="app">
+      <Navbar/>
       <Banner/>
       <Row 
       title="NETFLIX ORIGINALS"
